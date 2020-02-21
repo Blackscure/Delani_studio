@@ -6,7 +6,6 @@
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 } 
 
 
@@ -32,6 +31,13 @@
 
 #mouse{
     height: 120px;
+}
+
+/*-----------------------About us section--------------------*/
+#aboutus{
+    text-align: center;
+    padding-top: 60px;
+
 }
 
 
