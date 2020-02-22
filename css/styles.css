@@ -94,6 +94,28 @@ Works
     padding: 10px 7px;
 	 
 }
+/*----------contact Us-----------*/
+.contactus{
+    background: url("../images/backgrounds/c_image.jpg");
+    height: 100vh;
+}
+
+.contactus #headen{
+    text-align: center;
+    color:white;
+    padding-top: 27px;
+}
+
+form{
+    text-align: center;
+    padding: 30px;
+    opacity: 0.2;
+    border: black
+}
+
+textarea{
+    text-align: center;
+}
 
 
  
