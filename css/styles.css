@@ -48,8 +48,31 @@
     color: cornsilk;
 }
 
+/*-------------------------What to do section----------*/
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+  
+}
 
+.text-wat_we_do h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#design-p {
+    text-align: center;
+}
+
+ 
 
     
  
