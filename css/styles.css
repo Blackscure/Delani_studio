@@ -68,8 +68,37 @@ div.gallery img {
     padding-bottom: 50px;
 }
 
+/*---------------Portfolio----------*/
+ 
+
+
+/* ================================
+Works
+================================= */
+.og-grid {
+    list-style: none;
+    text-align: center;
+	 
+}
+
+.og-grid img{
+    height: 200px;
+}
+
+.og-grid #headin{
+    text-align: center;
+}
+
+.og-grid li {
+    display: inline-block;
+    padding: 10px 7px;
+	 
+}
+
+
+ 
  
  
 
-    
+ 
  
