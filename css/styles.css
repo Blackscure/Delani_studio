@@ -62,23 +62,27 @@ div.gallery img {
   
 }
 
-.text-wat_we_do h3{
+.row{
+    margin-left: 30px;
     text-align: center;
+}
+
+.text-wat_we_do h3{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 /*---------------Portfolio----------*/
  
-
-
-/* ================================
-Works
-================================= */
 .og-grid {
     list-style: none;
     text-align: center;
 	 
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .og-grid img{
@@ -95,32 +99,55 @@ Works
 	 
 }
 /*----------contact Us-----------*/
-.contactus{
-    background: url("../images/backgrounds/c_image.jpg");
-    height: 100vh;
-}
-
-.contactus #headen{
+.contactme{
+    background-image: url(../images/backgrounds/c_image.jpg);
     text-align: center;
-    color:white;
-    padding-top: 27px;
+    margin-top: 50px;
+    color: white;
+    height: auto;
+}
+.myform {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+.myform ::placeholder{
+    color: white;
 }
 
-form{
+.myform input{
+    color: yellowgreen;
+}
+
+.myform ::placeholder{
+    content: yellowgreen;
+}
+
+.submitme {
+    margin-bottom: 17vh;
+  }
+  
+#name,#email,#textarea {
+  background: transparent;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*-----------footer section---------*/
+ 
+.socialmedia{
     text-align: center;
-    padding: 30px;
-    opacity: 0.2;
-    border: black
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
-
-textarea{
-    text-align: center;
-}
-
-
  
- 
- 
-
+ #footer-text{
+     text-align: center;
+ }
  
  
