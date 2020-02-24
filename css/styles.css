@@ -99,6 +99,10 @@
     .og-grid img{
         height: 200px;
     }
+
+    .og-grid img:hover{
+        opacity: 0.3;
+    }
     
     .og-grid #headin{
         text-align: center;
@@ -109,6 +113,8 @@
         padding: 10px 7px;
          
     }
+
+     
     /*----------contact Us-----------*/
     .contactme{
         background-image: url(../images/backgrounds/c_image.jpg);
