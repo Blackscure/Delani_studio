@@ -14,9 +14,7 @@ $(".product").click(function(){
  });
 
  $("form").submit(function(){
-    alert("submitted")
+    alert("You have submitted successfully")
 });
 
 
-
-               
