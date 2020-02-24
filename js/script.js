@@ -12,3 +12,11 @@ $(".product").click(function(){
     $("#product-p").toggle();
     $("#product").toggle();
  });
+
+ $("form").submit(function(){
+    alert("submitted")
+});
+
+
+
+               
