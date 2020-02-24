@@ -1,0 +1,164 @@
+
+      /*Header section*/
+      .header{
+        min-height: calc(100vh - 94px);
+        background:url(../images/backgrounds/h_img.jpg);
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    } 
+    
+    
+    
+    .header img{
+        height: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 95px;
+    }
+    
+    .header h3{
+        color: cornsilk;
+        text-align: center;
+        font-size: 70px;
+        text-transform: uppercase;
+    }
+    
+    .header p1{
+        color: cornsilk;
+        font-size: 17px;
+        text-transform: uppercase;
+        text-align: center;
+         
+    }
+    
+    #mouse{
+        height: 120px;
+    }
+    
+    /*-----------------------About us section--------------------*/
+    #aboutus{
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    
+    
+    
+    /*--------------Servises----------*/
+    #sevices{
+        background:url(../images/backgrounds/s_image.jpg);
+        text-align: center;
+        padding-top: 60px;
+        color: cornsilk;
+        padding-bottom: 30px;
+    }
+    
+    /*-------------------------What to do section----------*/
+    .whatWeDo {
+        text-align: center;
+        margin-top: 6%;
+        margin-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #blah h4{
+        padding-bottom: 60px;
+    }
+
+    #design-p{
+        display: none;
+    }
+
+
+    /*---------------Portfolio----------*/
+     
+    .og-grid {
+        list-style: none;
+        text-align: center;
+         
+    }
+    
+    h3{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .og-grid img{
+        height: 200px;
+    }
+    
+    .og-grid #headin{
+        text-align: center;
+    }
+    
+    .og-grid li {
+        display: inline-block;
+        padding: 10px 7px;
+         
+    }
+    /*----------contact Us-----------*/
+    .contactme{
+        background-image: url(../images/backgrounds/c_image.jpg);
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        height: auto;
+    }
+    .myform {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    
+    .myform ::placeholder{
+        color: white;
+    }
+    
+    .myform input{
+        color: yellowgreen;
+    }
+    
+    .myform ::placeholder{
+        content: yellowgreen;
+    }
+    
+    .submitme {
+        margin-bottom: 17vh;
+      }
+      
+    #name,#email,#textarea {
+      background: transparent;
+    }
+    
+    h3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    /*-----------footer section---------*/
+     
+    .socialmedia{
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+     
+     #footer-text{
+         text-align: center;
+     }
+     
+    
+    
+    
+    
+
+
+    
+ 
+ 

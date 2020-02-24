@@ -5,22 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani Studios</title>
+     <!--bootstrap-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--main css-->
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <!--Font awsome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--Google fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <!--Header-->
-    <section class="header">
-        <div id="capital d logo">
-
-        </div>
-            <div id="fist-h3">
+      <!--Header section-->
+      <header class="header">
+            <img src="images/logo/logo.png" alt="capital D"> 
                 <h3>Welcome</h3>
+                <h3>To Delani Studios</h3>
+                <p1>Amazing people are mking Amazing designs in a fun enviroment</p1>
+                <div id="">
+                <img src="images/backgrounds/mouse_click.png" id="mouse">
+        </div>
+    </header>
+    <!--About section-->
+    <div id="aboutus">
+        <h4>About Us</h4>
+            <P>When you work with us, you are part of a team of committed collaborators.All aspects of our software
+                development process are intergrated, interactive <br> and agile.</P>
+            <p>Our approach unifies design, development and product management to create exceptional products.</p>
+            <p>2We start each project by understanding your business goals, the user's needs and the product requirements
+            </p>
+            <p2>Then we help translate them into effective and elegant solutions.</p2>
+    </div>
+    <!---------------Services section-------------->
+    <div id="sevices">
+        <h4>Services</h4>
+        <p>Before we sign a contract or write a line of code our team will spend the necessary time to understand
+                your product vision</p>
+            <p>The outcome of this scoping session ia proposal or high-level statement work </p>
+            <p>based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
+    </div>
+    <!-------------What to do Section----------------->
+    <div class="container-fluid whatWeDo">
+        <div class="head-row">
+            <h4 id="blah">WHAT WE DO</h4>
+        </div>
+        <div class="row justify-content-between">
+            <div class="design col-12 col-md-4 ">
+                <img src="./images/logo/portfolio/services_icons/design_icon.png" id="design"/>
+                <h6>DESIGN</h6>
+                <p id="design-p" class="info">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
-            <div id="second-h3">
-                <h3>To Delani Studio</h3>
+            <div class="development col-12 col-md-4">
+                <img src="./images/logo/portfolio/services_icons/dev_icon.png" id="dev"/>
+                <h6>DEVELOPMENT</h6>
+                <p id="dev-p" class="info">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
-            <div id="paragraph1">
-                <p>Amazing people are making amazing desicions in a fun enviroment</p>
+            <div class="product col-12 col-md-4">
+                <img src="./images/logo/portfolio/services_icons/product_icon.png" id="product"/>
+                <h6>PRODUCT MANAGEMENT</h6>
+                <p id="product-p" class="info">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                This iterative process allows for changes as business requirements evolve.</p>
             </div>
-    </section>
+        </div>
+   </div>
+          
+    <!---------Portfolio section--------->
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="hedin">
+                <h3>portfolio</h3>
+            </div>
+          <ul id="og-grid" class="og-grid">
+            <li>
+                <img src="./images/logo/portfolio/work1.jpg"alt=""/>
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work2.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work3.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work4.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work5.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work6.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work7.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+                <img src="./images/logo/portfolio/work8.jpg" alt="img01" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-------Contact Us section--------->
+<div class="contactme">
+    <div class="container-fluid myform">
+        <div class="container mycontact">
+            <h3 class="text-center myhead">CONTACT US</h3>
+            <div class="form">
+                <form action="#" method="POST" onsubmit="event.preventDefault()" id="myForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Name..." required id="name" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email..." required id="email" />
+                        </div>
+                    </div>
+                    <br><br>
+                    <textarea placeholder="Your message here..." cols="30" rows="10" id="textarea"
+                        class="form-control"></textarea><br><br>
+                    <button class="btn btn-primary submitme" onsubmit="popUp()" onsubmit="event.preventDefault()"
+                        id="cta" type="submit" data-target="#myModal">
+                        submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------footer section-------------->
+    <div class="socialmedia">
+        <img src="images/social_icons/behance.png">
+        <img src="images/social_icons/dribble.png">
+        <img src="images/social_icons/facebook.png">
+        <img src="images/social_icons/flickr.png">
+        <img src="images/social_icons/g_plus.png">
+        <img src="images/social_icons/pinterest.png">
+        <img src="images/social_icons/skype.png">
+        <img src="images/social_icons/stumble_upon.png">
+        <img src="images/social_icons/twitter.png">
+        <img src="images/social_icons/you_tube.png">
+    </div>
+  <div id="footer-text">
+      <h5>
+          Dealani Studios
+      </h5>
+      <p>2019</p>
+  </div>
+</div>
+
+
+ 
+    <!--jQuery cdn-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!--main script file-->
+      <script src="js/script.js"></script>
 </body>
 </html>
