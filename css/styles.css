@@ -1,4 +1,44 @@
 
+
+         /*Header section*/
+      .header{
+        min-height: calc(100vh - 94px);
+        background:url(../images/backgrounds/h_img.jpg);
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    } 
+    
+    
+    
+    .header img{
+        height: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 95px;
+    }
+    
+    .header h3{
+        color: cornsilk;
+        text-align: center;
+        font-size: 70px;
+        text-transform: uppercase;
+    }
+    
+    .header p1{
+        color: cornsilk;
+        font-size: 17px;
+        text-transform: uppercase;
+        text-align: center;
+         
+    }
+    
+    #mouse{
+        height: 120px;
+    }
+
       /*Header section*/
       .header{
         min-height: calc(100vh - 94px);
@@ -114,46 +154,38 @@
          
     }
 
+    
      
     /*----------contact Us-----------*/
-    .contactme{
+    .contact{
         background-image: url(../images/backgrounds/c_image.jpg);
         text-align: center;
         margin-top: 50px;
         color: white;
         height: auto;
     }
-    .myform {
-        position: relative;
-        left: 0;
-        top: 0;
-      }
-    
-    .myform ::placeholder{
+
+    .contact h2{
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+
+    #name{
+        background: transparent;
         color: white;
     }
-    
-    .myform input{
-        color: yellowgreen;
+    #mail{
+        background: transparent;
+        color: white;
+    }#text{
+        background: transparent;
+        color: white;
     }
-    
-    .myform ::placeholder{
-        content: yellowgreen;
+    #submit{
+        text-align: center;
+        padding-top: 10px;
     }
-    
-    .submitme {
-        margin-bottom: 17vh;
-      }
-      
-    #name,#email,#textarea {
-      background: transparent;
-    }
-    
-    h3{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    
+     
     
     /*-----------footer section---------*/
      
