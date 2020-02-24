@@ -20,7 +20,7 @@
             <img src="images/logo/logo.png" alt="capital D"> 
                 <h3>Welcome</h3>
                 <h3>To Delani Studios</h3>
-                <p>Amazing people are mking Amazing designs in a fun enviroment</p>
+                <p1>Amazing people are mking Amazing designs in a fun enviroment</p1>
                 <div id="">
                 <img src="images/backgrounds/mouse_click.png" id="mouse">
         </div>
@@ -31,9 +31,9 @@
             <P>When you work with us, you are part of a team of committed collaborators.All aspects of our software
                 development process are intergrated, interactive <br> and agile.</P>
             <p>Our approach unifies design, development and product management to create exceptional products.</p>
-            <p>We start each project by understanding your business goals, the user's needs and the product requirements
+            <p>2We start each project by understanding your business goals, the user's needs and the product requirements
             </p>
-            <p>Then we help translate them into effective and elegant solutions.</p>
+            <p2>Then we help translate them into effective and elegant solutions.</p2>
     </div>
     <!---------------Services section-------------->
     <div id="sevices">
@@ -44,72 +44,32 @@
             <p>based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
     </div>
     <!-------------What to do Section----------------->
-    <div class="wat_we_do">
-        <div class="text-wat_we_do">
-            <h3>WHAT WE DO</h3>
-            <div class="table">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="design_icon">
-                            <div id="design_icon">
-                                <img src="./images/logo/portfolio/services_icons/design_icon.png">
-                                <div class="p-heading">
-                                    <p>DESIGN</p>
-                                </div>
-                            </div>
-                            <div id="design-p">
-                                <h5>
-                                    DESIGN
-                                </h5>
-                                <p>Our design practice offers a full range of services including brand strategy,
-                                    interaction and visual design and user experience testing.</p>
-                                <p> your project, our designers create and implement visual design and workflows,
-                                    solicit user feedback and work with you to make sure what gets built is what is
-                                    needed. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="dev_icon">
-                            <div id="dev_icon">
-                                <img src="./images/logo/portfolio/services_icons/dev_icon.png">
-                                <div class="p-heading">
-                                    <p>DEVELOPMENT</p>
-                                </div>
-                            </div>
-                            <div id="development">
-                                <h5>
-                                    DEVELOPMENT
-                                </h5>
-                                <p>All engineers are fluent in the latest enterprise, mobile and web development
-                                    technologies.</p>
-                                <p>They collaborate with your team to write, and improve code on a daily basis, using
-                                    proven practices such as test-driven development and pair programming.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="product_icon">
-                            <div id="product_icon">
-                                <img src="./images/logo/portfolio/services_icons/product_icon.png">
-                                <div class="p-heading">
-                                    <p>PROJECT MANAGEMENT</p>
-                                </div>
-                            </div>
-                            <div id="pmanagent">
-                                <h5>
-                                    PROJECT MANAGEMENT
-                                </h5>
-                                <p>Planning and development is iterative. Because we are constantly coding and testing,
-                                    the products we build are always ready to go live. </p>
-                                <p>iterative process allows for changes as business requirements evolve.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid whatWeDo">
+        <div class="head-row">
+            <h4 id="blah">WHAT WE DO</h4>
+        </div>
+        <div class="row justify-content-between">
+            <div class="design col-12 col-md-4 ">
+                <img src="./images/logo/portfolio/services_icons/design_icon.png" id="design"/>
+                <h6>DESIGN</h6>
+                <p id="design-p" class="info">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
+            <div class="development col-12 col-md-4">
+                <img src="./images/logo/portfolio/services_icons/dev_icon.png" id="dev"/>
+                <h6>DEVELOPMENT</h6>
+                <p id="dev-p" class="info">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+            <div class="product col-12 col-md-4">
+                <img src="./images/logo/portfolio/services_icons/product_icon.png" id="product"/>
+                <h6>PRODUCT MANAGEMENT</h6>
+                <p id="product-p" class="info">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                This iterative process allows for changes as business requirements evolve.</p>
             </div>
         </div>
-    </div>
+   </div>
+          
     <!---------Portfolio section--------->
     <div class="row">
         <div class="col-lg-12">
@@ -160,7 +120,7 @@
         <div class="container mycontact">
             <h3 class="text-center myhead">CONTACT US</h3>
             <div class="form">
-                <form action="#" method="POST" onsubmit="event.preventDefault()" id="form">
+                <form action="#" method="POST" onsubmit="event.preventDefault()" id="myForm">
                     <div class="row">
                         <div class="col-md-6">
                             <input type="text" class="form-control" placeholder="Name..." required id="name" />
