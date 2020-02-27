@@ -30,7 +30,7 @@ This is a simple studio website
 
 
 
-# License and Copyright information.
+# contact info
 
-[This is a relative link to a licesense file](Moringa_week3_project/LICENSE)
+*Email Wekesabuyahi@gmail.com
 
