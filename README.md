@@ -1,10 +1,9 @@
-# Project Title
-Delani Studios
+# Delani Studios
 
 ## Author Name
 Wekesa Buyahi
 
-#### Description of project
+## Description of project
 This is a simple studio website
 
 ## Project Setup instructions
@@ -18,19 +17,19 @@ This is a simple studio website
 
  
 
-# Technologies used
+## Technologies used
 1. jQuery
 2. Bootstrap
 3. Javascript
 4. Html
 5. css
 
-# Link to live site on GitHub Pages
+## Link to live site on GitHub Pages
 [View the page]( https://blackscure.github.io/Moringa_week3_Projct/. )
 
 
 
-# contact info
+## contact info
 
 *Email Wekesabuyahi@gmail.com
 
