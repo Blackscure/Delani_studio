@@ -39,6 +39,10 @@
     }
 
       /*Header section*/
+
+
+
+
       .header{
         min-height: calc(100vh - 94px);
         background:url(../images/backgrounds/h_img.jpg);
@@ -58,12 +62,14 @@
         padding-top: 95px;
     }
     
-    .header h3{
+    .header h4{
         color: cornsilk;
         text-align: center;
-        font-size: 70px;
+        font-size: none;
+        font-weight: 25px;
         text-transform: uppercase;
     }
+
     
     .header p1{
         color: cornsilk;
