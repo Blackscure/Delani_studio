@@ -27,6 +27,9 @@ This is a simple studio website
 ## Link to live site on GitHub Pages
 [View the page]( https://blackscure.github.io/Moringa_week3_Projct/. )
 
+## LICENSE
+[Lisence](./LICENSE)
+
 
 
 ## contact info
